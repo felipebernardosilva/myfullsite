@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width:18%;
+    background-color: rgb(186, 197, 34);
+    padding: 10px 20px 0px;
+}
+.header { 
+    background-color: rgb(157, 161, 161);
+    min-height: 150px;
+}
+.content {
+    background-color: rgb(121, 230, 230);
+    min-height: 300px;
+    padding: 20px;
+}
+.footer { text-align: center;
+    background-color: rgb(90, 197, 57);
+    min-height: 150px;
+}
